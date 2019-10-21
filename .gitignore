@@ -12,4 +12,4 @@ pom.xml.asc
 .hg/
 
 .idea/
-caiorulli.github.io.iml
+*.iml
