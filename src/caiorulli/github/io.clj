@@ -80,6 +80,7 @@
    "/css/style.css" css-file})
 
 (def app
+  "Live reload pages entry point"
   (stasis/serve-pages get-pages))
 
 (def export-dir "./caiorulli.github.io")

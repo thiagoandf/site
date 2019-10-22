@@ -1,10 +1,24 @@
 # caiorulli.github.io
 
-A Clojure library designed to ... well, that part is up to you.
+Development project for generating the assets for my [personal site](https://caiorulli.github.io).
+
+It has a handful of Clojure tools for static sites:
+- [stasis](https://github.com/magnars/stasis) for static page serving utils;
+- [hiccup](https://github.com/weavejester/hiccup) for building HTML;
+- [garden](https://github.com/noprompt/garden) for building CSS.
 
 ## Usage
 
-FIXME
+To run the project with stasis' live-reload:
+```bash
+lein ring server-headless
+```
+It will start at `localhost:3000` by default.
+
+To build it into the `caiorulli.github.io` submodule, run:
+```bash
+lein build-site
+```
 
 ## License
 
