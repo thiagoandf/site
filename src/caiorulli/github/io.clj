@@ -53,7 +53,8 @@
 (def default-spacing "8px")
 
 (def css-file
-  (css [[:body {:font-family      "'FantasqueSansMonoRegular'"
+  (css [[:body {:margin           "0px"
+                :font-family      "'FantasqueSansMonoRegular'"
                 :color            text-color
                 :background-color "#0B0B0B"
                 :width            "100%"
