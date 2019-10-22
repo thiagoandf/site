@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [ring "1.7.1"]
                  [stasis "2.5.0"]
-                 [hiccup "1.0.5"]]
+                 [hiccup "1.0.5"]
+                 [garden "1.3.9"]]
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler caiorulli.github.io/app}
   :repl-options {:init-ns caiorulli.github.io}
