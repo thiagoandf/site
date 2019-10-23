@@ -1,7 +1,6 @@
 (ns ^:figwheel-hooks caiorulli.site.core
-  (:require
-    [goog.dom :as gdom]
-    [reagent.core :as reagent :refer [atom]]))
+  (:require [goog.dom :as gdom]
+            [reagent.core :as reagent :refer [atom]]))
 
 (defn multiply
   "Placeholder test function"
