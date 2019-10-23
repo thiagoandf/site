@@ -1,5 +1,6 @@
 # Personal site
 
+[![Build Status](https://cloud.drone.io/api/badges/caiorulli/site/status.svg)](https://cloud.drone.io/caiorulli/site)
 
 Development project for generating the assets for my [personal site](https://caiorulli.github.io).
 
