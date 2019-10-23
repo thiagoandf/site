@@ -2,7 +2,7 @@
 
 [![Build Status](https://cloud.drone.io/api/badges/caiorulli/site/status.svg)](https://cloud.drone.io/caiorulli/site)
 
-Development project for generating the assets for my [personal site](https://caiorulli.github.io).
+Development project for generating the assets for my [personal site](https://caiorulli-site.firebaseapp.com/).
 
 Currently using the template Figwheel setup with Reagent.
 
