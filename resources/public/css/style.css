@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    font-family: 'FantasqueSansMonoRegular', sans-serif;
+    margin: 0;
+    background-color: #0B0B0B;
+    color: #F2F2F2;
+}
+
+div.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+div.quote {
+    max-width: 400px;
+    background-color: #1B1B1B;
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+div.social-icons {
+    margin-top: 8px;
+    padding: 8px;
+}
+
+p.quote-content {
+    font-style: italic;
+}
+
+p.quote-author {
+    text-align: right;
+}
+
+p.quote-author, p.quote-content {
+    margin: 0;
+}
+
+.icon {
+    color: #F2F2F2;
+    margin: 8px;
+    font-size: 32px;
+}
